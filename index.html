@@ -3,8 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="AKAM PTY LTD - Empowering African industries through entertainment, farming, home services, gaming, construction, and events." />
   <title>AKAM PTY LTD</title>
+  <link rel="icon" href="images/favicon.ico" />
   <style>
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
     body {
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
@@ -13,6 +21,10 @@
       color: #333;
       line-height: 1.6;
     }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
     header {
       background-color: #e3f2fd;
       padding: 1rem 0.5rem;
@@ -20,7 +32,6 @@
     }
     header img {
       width: 180px;
-      height: auto;
       margin-bottom: 1rem;
     }
     header h1 {
@@ -28,9 +39,12 @@
     }
     nav {
       margin-top: 0.5rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1rem;
     }
     nav a {
-      margin: 0 1rem;
       text-decoration: none;
       color: #0077b6;
       font-weight: bold;
@@ -55,12 +69,9 @@
       padding-bottom: 1rem;
     }
     .division img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 8px;
-  margin: 1rem 0;
-}
-
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
     footer {
       background-color: #e3f2fd;
       text-align: center;
@@ -71,10 +82,10 @@
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="AKAM Logo">
+    <img src="images/logo.png" alt="AKAM Logo" />
     <h1>AKAM PTY LTD</h1>
     <p>Roots to Rhythm | Celebrating The Heartbeat Of Africa</p>
-    <nav>
+    <nav aria-label="Main Navigation">
       <a href="#about">About</a>
       <a href="#divisions">Divisions</a>
       <a href="#contact">Contact</a>
@@ -91,55 +102,55 @@
   <section id="divisions">
     <h2>Our Divisions</h2>
 
-    <div class="division">
+    <article class="division">
       <h3>Afri Summer Vibes Festival</h3>
       <p><strong>Tagline:</strong> Roots to Rhythm Celebrating The Heartbeat Of Africa</p>
       <p>This celebration of African music, arts, and culture showcases the continent's diversity and richness, featuring both traditional and contemporary music. Hosted annually in various cities, it aims to conquer all 54 African countries while highlighting countless traditions, languages, and cuisines.</p>
-      <p><strong>Vision:</strong> To become the premier platform for African music and culture on the global stage while linking the African continent to its people and showcasing stunning and emerging jewels. </p>
+      <p><strong>Vision:</strong> To become the premier platform for African music and culture on the global stage while linking the African continent to its people and showcasing stunning and emerging jewels.</p>
       <p><strong>Mission:</strong> Empower African creativity, drive economic growth, and connect global audiences to Africa’s cultural heartbeat while celebrating Africa’s diversity, empowering communities and promoting cultural exchange.</p>
-    </div>
+    </article>
 
-    <div class="division">
+    <article class="division">
       <h3>Ubuntu Groves Farm</h3>
-      <img src="ubuntu farm.jpg" alt="Ubuntu Farm">
+      <img src="images/ubuntu_farm.jpg" alt="Ubuntu Farm" />
       <p><strong>Tagline:</strong> I am Because We Are</p>
       <p>A pioneering agricultural enterprise rooted in the ethos of Ubuntu – the Southern African philosophy of interconnectedness. This innovative farm integrates cutting-edge technology, circular farming practices to address critical gaps in food security, sustainability, and economic equity across the Southern African Development Community. Ubuntu Groves operates on a closed-loop system that mimics nature’s efficiency, livestock-crop synergy, the farm produces five core categories tailored to Southern Africa’s demand such as antibiotic-free poultry, sustainable pork, hydroponic tomatoes, gourmet mushrooms and export-ready mint.</p>
       <p><strong>Vision:</strong> To lead in sustainable, high-quality meat and vegetable supply while promoting climate resilience and inclusive growth.</p>
       <p><strong>Mission:</strong> Cultivate abundance through regenerative agriculture, providing nutritious food, creating dignified livelihoods, and nurturing ecosystems.</p>
-    </div>
+    </article>
 
-    <div class="division">
+    <article class="division">
       <h3>ZalServices (HomeBuddies)</h3>
       <p><strong>Tagline:</strong> Your Home, Our Pride. Services at Your Fingertips.</p>
       <p>This multi-service platform connecting users with vetted professionals for home cleaning, childcare, groundskeeping, handyman repairs, and Africa-specific needs like generator maintenance and water delivery. ZalServices is not just an app but a movement to redefine home care in Africa. By blending hyper-local adaptation with scalable tech, it addresses critical gaps in service quality employment and financial inclusion. With a focus on trust, community, and innovation ZalServices is poised to become Africa’s answer to the global gig economy.</p>
       <p><strong>Vision:</strong> To revolutionize Africa’s informal home services sector by formalizing gig work, improving service quality, and becoming the continent’s most trusted platform for household care by 2030.</p>
       <p><strong>Mission:</strong> Empower African households and service providers by bridging the gap between demand and supply of reliable, affordable home services through a trusted, tech-driven platform that prioritizes safety, dignity, and economic opportunity.</p>
-    </div>
+    </article>
 
-    <div class="division">
+    <article class="division">
       <h3>Ubuntu Gaming</h3>
       <p><strong>Tagline:</strong> Uniting Africa’s Gaming Ecosystem Through Culture, Competition, and Community</p>
-      <p>A place for African gamers and streaming services fanatics to build sustainable and lucrative careers through E-Sports in Africa. Ubuntu Gaming is designed to celebrate Africa’s rapidly growing gaming industry while fostering economic opportunities, cultural exchange and technological innovation. Ubuntu Gaming is positioned to capitalized on Africa’s gaming market, offering a culturally resonant, financially viable platform for global brands and local talent. With robust revenue streams, strategic partnerships, and a focus on community impact, Ubuntu Gaming will solidify Africa’s place in the global gaming economy.</p>
+      <p>A place for African gamers and streaming services fanatics to build sustainable and lucrative careers through E-Sports in Africa. Ubuntu Gaming is designed to celebrate Africa’s rapidly growing gaming industry while fostering economic opportunities, cultural exchange and technological innovation. Ubuntu Gaming is positioned to capitalize on Africa’s gaming market, offering a culturally resonant, financially viable platform for global brands and local talent.</p>
       <p><strong>Vision:</strong> To be Africa’s premier gaming event platform uniting gamers, creators, and brands.</p>
-      <p><strong>Mission:</strong> Foster community, showcase innovation and celebrate African gaming culture. </p>
-    </div>
+      <p><strong>Mission:</strong> Foster community, showcase innovation and celebrate African gaming culture.</p>
+    </article>
 
-    <div class="division">
+    <article class="division">
       <h3>Ubuntu Craftwork</h3>
-      <img src="ubuntu_craftwork.jpg" alt="Ubuntu Craftwork">
+      <img src="images/ubuntu_craftwork.jpg" alt="Ubuntu Craftwork" />
       <p><strong>Tagline:</strong> Where Heritage Meets Innovation, Crafting Impactful Futures</p>
-      <p>This is furniture manufacturing enterprise that combines artisanal craftsmanship, cultural heritage, and sustainable innovation to deliver high quality, CSI-aligned furniture solutions across Southern Africa. Founded as a 51% Black-owned business, we specialize in bespoke furniture for corporate, residential, and public sector clients.  Ubuntu Craftworks stands out through, CSI integration program. Our sustainable production proposition of using 90% reclaimed or FSC-certified materials, using modular, repairable desires and using carbon neutral operations via solar power and tree planting enables Ubuntu Craftwork to protect the Africa’s stunning jewels. </p>
-      <p><strong>Vision:</strong> Be Southern Africa’s leading CSI-compliant furniture brand, recognized for innovation, empowerment, and environmental stewardship. </p>
+      <p>This is furniture manufacturing enterprise that combines artisanal craftsmanship, cultural heritage, and sustainable innovation to deliver high quality, CSI-aligned furniture solutions across Southern Africa. Founded as a 51% Black-owned business, we specialize in bespoke furniture for corporate, residential, and public sector clients. Our sustainable production proposition of using 90% reclaimed or FSC-certified materials, modular, repairable designs and carbon-neutral operations enables Ubuntu Craftwork to protect Africa’s stunning jewels.</p>
+      <p><strong>Vision:</strong> Be Southern Africa’s leading CSI-compliant furniture brand, recognized for innovation, empowerment, and environmental stewardship.</p>
       <p><strong>Mission:</strong> Transform the furniture industry through sustainable, culturally inspired designs while driving measurable socio-economic impact.</p>
-    </div>
+    </article>
 
-    <div class="division">
+    <article class="division">
       <h3>Faith & Fortune</h3>
       <p><strong>Tagline:</strong> Empowering African Believers in Business</p>
-      <p>This is an initiative that merges spiritual principles with entrepreneurial pragmatism. It is built on the conviction that faith and business success are synergistic, not contradictory. The title reflects two pillars, Faith – as a moral foundation for ethical decision-making, resilience, and community upliftment & Fortune – as the tangible outcomes of sustainable, purpose driven entrepreneurship.  Our forward approach means our programs are unlike any other distributors in the continent in such as way that our seminars address spiritual burnout and moral dilemmas that are unique to devout entrepreneurs.  Faith & Fortune is not merely a seminar or podcast but a movement redefining African entrepreneurship. By harmonizing spiritual conviction with business acumen, we equip believers to thrive economically while serving as ethical leaders in their communities.  Rooted in Africa’s rich cultural and religious tapestry, the initiative aspires to ignite a renaissance of integrity-driven commerce across the continent.</p>
-      <p><strong>Vision:</strong> To empower African entrepreneurs to achieve holistic success-spiritual fulfillment, ethical integrity, and economic prosperity by integrating faith – based values into business practices. </p>
-      <p><strong>Mission:</strong> Dismantle the false dichotomy between sacred and secular work , positioning entrepreneurship as a divine calling and tool for societal transformation.</p>
-    </div>
+      <p>This is an initiative that merges spiritual principles with entrepreneurial pragmatism. It is built on the conviction that faith and business success are synergistic, not contradictory. The title reflects two pillars, Faith – as a moral foundation for ethical decision-making, resilience, and community upliftment & Fortune – as the tangible outcomes of sustainable, purpose-driven entrepreneurship. Our seminars address spiritual burnout and moral dilemmas unique to devout entrepreneurs.</p>
+      <p><strong>Vision:</strong> To empower African entrepreneurs to achieve holistic success—spiritual fulfillment, ethical integrity, and economic prosperity by integrating faith-based values into business practices.</p>
+      <p><strong>Mission:</strong> Dismantle the false dichotomy between sacred and secular work, positioning entrepreneurship as a divine calling and tool for societal transformation.</p>
+    </article>
   </section>
 
   <section id="contact">
